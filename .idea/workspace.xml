@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82762286-8cda-43ae-8298-3e652f2c1a18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/SpringwithmongodbApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/SpringwithmongodbApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/client/MongodbClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/client/MongodbClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/controller/BaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/controller/BaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/controller/ControllerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/controller/ControllerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/repository/CarRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/java/spring/SpringwithmongodbApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/java/spring/controller/BaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/SpringwithmongodbApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/client/MongodbClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/java/spring/client/MongodbClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/controller/BaseClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/controller/ControllerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/java/spring/controller/ControllerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/dto/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/java/spring/dto/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/java/spring/repository/CarRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/main/java/spring/repository/CarRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarParkingTask_Spring/SpringMongodb/src/test/java/spring/SpringwithmongodbApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CarParkingTask_Spring/SpringElasticsearch/src/test/java/spring/SpringwithmongodbApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
