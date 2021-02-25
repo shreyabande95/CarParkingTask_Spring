@@ -29,6 +29,7 @@ class SpringwithmongodbApplicationTests {
 		assertEquals("Successfully added Car with Registration Number:1",mongodb.addCar(car));
 
 	}
+	//testing slot value by color
 	@Test
 	public void getSlotByColorTest(){
 		Car car=new Car(2,2,"red",0);
