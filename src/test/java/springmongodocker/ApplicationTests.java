@@ -23,21 +23,21 @@ class ApplicationTests {
 	@Autowired
 	public  ControllerClass controllerClass;
 
-
-	@Test
-	public void getRegNoByColorTest() throws Exception{
-		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/registration_number/yellow")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("Registration Number:8888 Registration Number:1010 "));
-	}
-
-	@Test
-	public void getSlotByRegNoTest() throws Exception{
-		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/slot/registration_number/8888")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("[Floor:1 Slot:1] "));
-	}
-
-	@Test
-	public void getSlotByColorTest() throws Exception{
-		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/slot/color/yellow")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("[Floor:1 Slot:1] [Floor:1 Slot:1] "));
-	}
+//
+//	@Test
+//	public void getRegNoByColorTest() throws Exception{
+//		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/registration_number/yellow")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("Registration Number:8888 Registration Number:1010 "));
+//	}
+//
+//	@Test
+//	public void getSlotByRegNoTest() throws Exception{
+//		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/slot/registration_number/8888")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("[Floor:1 Slot:1] "));
+//	}
+//
+//	@Test
+//	public void getSlotByColorTest() throws Exception{
+//		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/slot/color/yellow")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("[Floor:1 Slot:1] [Floor:1 Slot:1] "));
+//	}
 
 	@Test
 	void contextLoads() {
