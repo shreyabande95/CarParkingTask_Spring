@@ -59,8 +59,9 @@ public class MongodbClient extends DbClient {
     }
 
     public String delete(String regNo){
-        carRepo.deleteById(Integer.parseInt(regNo));
+        carRepo.deleteById(regNo);
         return "De-parked!";
     }
+
 
 }

@@ -32,7 +32,6 @@ class ApplicationTests {
 
 	@Test
 	public void getRegNoByColorTest() throws Exception{
-
 		mvc.perform(MockMvcRequestBuilders.get("/v1/cars/search/registration_number/red")).andExpect(MockMvcResultMatchers.status().isOk()).andExpect(MockMvcResultMatchers.content().string("Registration Number:KA0932 Registration Number:KA0933 "));
 	}
 

@@ -44,6 +44,7 @@ public class ControllerClass {
         return status ;
     }
 
+
     @GetMapping("/search/registration_number/{color}") // API to get Registration Number of all cars of particular color
     public String retrieveRegNoByColor(@PathVariable String color) {
         String result="";
@@ -65,8 +66,8 @@ public class ControllerClass {
         return result;
     }
 
-    @RequestMapping("/delete/{regNo}") // API to depark car
-    public String delete(@PathVariable String regNo){
+    @DeleteMapping(value="/delete/{registrationNo}") // API to depark car
+    public String delete(@RequestParam String regNo) throws JSONException{
         String result="";
         result=dbClient.delete(regNo);
         return result;

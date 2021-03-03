@@ -6,6 +6,7 @@ import springmongodocker.dto.Car;
 
 import java.io.InputStream;
 import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 import java.util.Properties;
 
 public class DbClient {
@@ -58,4 +59,5 @@ public class DbClient {
         String res=((DbClient)thisObject).delete(regNo);
         return res;
     }
+
 }
