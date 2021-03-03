@@ -45,6 +45,7 @@ public class ControllerClass {
     }
 
 
+
     @GetMapping("/search/registration_number/{color}") // API to get Registration Number of all cars of particular color
     public String retrieveRegNoByColor(@PathVariable String color) {
         String result="";
